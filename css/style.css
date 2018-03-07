@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600i,900|Roboto:300,400,700,900');
+
+body{
+	font: 400 16px/1.56 Lato, sans-serif;
+	color: #303030;
+	background: #eeeeee;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1240px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* ================================================================ */
+/* =========================== HEADER ============================= */
+/* ================================================================ */
+
+.ba-header {
+	margin: 60px 0 0;
+	display: flex;
+	align-items: center;
+}
+
+.ba-header-title {
+	margin: 0;
+	display: inline-block;
+	font: 900 48px/1.77 Roboto, sans-serif;
+	color: #303030;
+}
+
+.ba-nav{
+	flex-grow: 1;
+}
+
+.ba-nav-menu {
+	display: flex;
+	justify-content: flex-end;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+.ba-nav-menu li {
+	margin-left: 50px;
+}
+
+.ba-nav-menu a {
+	text-decoration: none;
+	color: #303030;
+	font: 400 18px/1.5 Roboto, sans-serif;
+}
+
+/* ================================================================ */
+/* ======================== section SLIDER ======================== */
+/* ================================================================ */
+
+.ba-slider {
+	font-size: 0;
+	margin-top: 105px;
+}
+
+.ba-slider-left {
+	display: inline-block;
+	width: 50%;
+	font-size: 16px;
+	vertical-align: top;
+	text-align: right;
+}
+
+.ba-slider-right > img {
+	padding-left: 104px;
+}
+
+.ba-slider-left-title {
+	font: 900 150px/1 'Raleway', sans-serif;
+	margin: 0;
+	display: inline-block;
+}
+
+.ba-slider-left-description {
+	font: 300 24px/1.5 Roboto, sans-serif;
+}
+
+.ba-slider-right {
+	display: inline-block;
+	width: 50%;
+	font-size: 16px;
+}
+
+.ba-slider a {
+	text-decoration: none;
+	color: #e10011;
+	font: 700 24px/1.5 Roboto, sans-serif;
+}
+
+.ba-slider-dots  {
+	display: block;
+	margin: 0 auto;
+	padding: 70px 0 100px;
+}
+
+/* ================================================================ */
+/* ======================== section PRODUCTS ====================== */
+/* ================================================================ */
+
+.ba-products-container {
+	background: #fff;
+}
+
+.ba-products-title {
+	font: 900 48px/1 Raleway, sans-serif;
+	text-align: center;
+	margin: 0;
+	padding: 115px 0 0;
+}
+
+.ba-products-title:after {
+	position: center;
+	display: block;
+	content: '';
+	width: 100%;
+	height: 16px;
+	background: url('../img/underline.png') no-repeat 50% 50%;
+	margin-top: 20px;
+}
+
+.ba-featured-product-description {
+	margin: 0 auto;
+	padding: 12px 0 77px;
+	width: 46%;
+	text-align: center;
+	font: 400 18px/1.33 Raleway, sans-serif;
+}
